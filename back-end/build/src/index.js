@@ -20,7 +20,7 @@ const cuboUserController = new CuboUserController_1.CuboUserController(cuboUserB
 app.post("/users", (0, ValidateSchema_1.validateSchema)(CuboUserSchema_1.CuboUserSchema), cuboUserController.createUser);
 app.get("/users", cuboUserController.getAllUsers);
 app.delete("/users", cuboUserController.deleteAllUsers);
-const server = app.listen(3003, () => {
+const server = app.listen(process.env.PORT || 3003, () => {
     if (server) {
         const address = server.address();
         console.log(`Server is running in http:localhost:${address.port}`);

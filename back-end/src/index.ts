@@ -22,7 +22,7 @@ app.post("/users",validateSchema(CuboUserSchema), cuboUserController.createUser)
 app.get("/users", cuboUserController.getAllUsers); 
 app.delete("/users", cuboUserController.deleteAllUsers);
 
-const server = app.listen(3003, ()=> {
+const server = app.listen(process.env.PORT || 3003, ()=> {
     if(server){
 
     const address = server.address() as AddressInfo; 
