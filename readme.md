@@ -1,6 +1,6 @@
 ### FULL STACK CHALLENGE
 
--Projeto inspirado no seguinte desafio:
+- Projeto inspirado no seguinte desafio:
 https://github.com/cubonetwork/fullstack-challenge 
 
 #### Adicionais
