@@ -14,6 +14,7 @@ https://github.com/cubonetwork/fullstack-challenge
 - Knex
 - mySql
 - Heroku
+- Jest
 
 #### FrontEnd Stack
 - ReactJs (Typescript)
