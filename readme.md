@@ -11,6 +11,7 @@ https://github.com/cubonetwork/fullstack-challenge
 #### BackEnd Stack
 - Typescript
 - Node.js
+- Express
 - Knex
 - mySql
 - Heroku
