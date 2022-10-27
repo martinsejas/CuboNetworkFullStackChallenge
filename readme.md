@@ -37,3 +37,5 @@ https://martinsejas-cubocasestudy.herokuapp.com/
 
 ### FOTO DO RESULTADO FINAL 
 ![image](https://user-images.githubusercontent.com/99181273/180505955-e7e7041f-3905-4d04-b6c7-a6e2d068f303.png)
+
+Made by Martin Sejas
